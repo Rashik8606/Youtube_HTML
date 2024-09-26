@@ -1,0 +1,38 @@
+button{
+    color:white;
+    background-color: brown;
+}
+body{
+    background-color: black;
+}
+#main{
+    color: violet;
+}
+.class{
+    color: black;
+    background-color: gray;
+}
+.class2{
+    color: white;
+    background-color:red;
+}
+.outer{
+    border: 5px solid;
+    border-color:red;
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    margin-left: 400px;
+ 
+}
+.box-out{
+    padding: 100px;
+    padding-top: 10px;
+ 
+}
+.inner{
+    margin: 10px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 100px;
+}

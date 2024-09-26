@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#first{
+    height: 100vh;
+    width: 20%;
+    background-color: black;
+    border-right: grey solid 3px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#second{
+    height: 100vh;
+    width: 25%;
+    background-color: black;
+    border-left:grey solid 3px;
+    
+
+
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    
+
+body{
+    background-color: black;
+}
+#logo{
+    padding: 20px 0 ;
+    
+
+}
+#nav{
+    color: white;
+    flex: 1;
+    font-size: 20px;
+    
+    
+}
+#profile{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px ;
+    
+}
+#option{
+    display: flex;
+    gap: 20px;
+    padding: 15px 0 15px 0;
+    align-items: center;
+    
+}
+img{
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+#main-name{
+    flex: 1;
+    padding-left: 10px;
+}
+#username{
+    color: gray;
+}
+#post{
+   padding: 10px;
+   text-align: center;
+   border-radius:30px;
+   margin-right: 20px;
+   margin-top: 10px;
+    background-color: rgb(29, 155, 240);
+}
+
+#main-nav{
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    color:white;
+}
+
+#nav2 {
+    flex:1;
+}
+
+#nav3 {
+    flex:1;
+}
