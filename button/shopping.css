@@ -1,0 +1,41 @@
+#link{
+    color: rgb(28, 153, 206);
+}
+#para{
+    font-weight: bold;
+    color: rgb(29, 145, 29);
+}
+#add-btn{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    padding:10px 15px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+}
+#add-btn:hover{
+    background-color:rgb(173, 147, 13) ;
+    cursor: pointer;
+}
+#buy-btn{
+    padding:10px 15px;
+    border-radius: 20px;
+    background-color: rgb(255,164,28);
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+}
+#buy-btn:hover{
+    background-color: rgb(183, 118, 20);
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+    border: 2px solid;
+    width: fit-content;
+    padding: 50px;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);   
+}
+
