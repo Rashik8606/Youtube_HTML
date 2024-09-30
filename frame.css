@@ -88,12 +88,59 @@ img{
     justify-content: space-between;
     display: flex;
     color:white;
+    height: 60px;
+    border-bottom: gray solid;
 }
 
 #nav2 {
-    flex:1;
+    height: 50px;
+    width: 348px;
+    text-align: center;
+    padding: 22px;
+   
 }
 
-#nav3 {
-    flex:1;
+#post-bar{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+}
+.post-icons{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#inp{
+    background-color: black;
+    border: 0   ;
+    outline: 0;
+    color: white;  
+    height: 50px;
+    font-size: 18px;  
+    padding: 10px;
+}
+#img2{
+    padding-top: 10px;
+}
+.post-downbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.post-svgs{
+    display: flex;
+    gap:17px
+}
+#btn{
+    background-color:rgb(29, 155, 240);
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
 }

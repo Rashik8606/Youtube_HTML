@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(243, 0, 0);
+    color:black;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 90px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align:-webkit-center;
+}
+#content-text{
+    color: red;
+    text-align: center;
+}
+#content{
+    color: violet;
+}
