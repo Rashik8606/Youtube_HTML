@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="Search Google or URL" id="searchbar">
+    </div>
+    <div>
+        <img src="GoogleLogo.png" alt="GoogleLogo">
+    </div>
+
+    <style>
+         *,
+      *::after,
+      *::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+        #searchbar{
+            padding-left: 30px;
+            padding: 8px 15px  ;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            border: 0 solid;
+            border-radius: 30px;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        img{
+            width: 150px;
+            position: absolute;
+            margin-left: 480px;
+            margin-top: 250px;
+            transform: translate(50%, -50%);
+        }
+    </style>
+</body>
+</html>
