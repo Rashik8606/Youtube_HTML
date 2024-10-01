@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+      *::after,
+      *::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .des {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        
+      }
+      .para {
+        color: rgb(197, 197, 197);
+        margin: 5px;
+      }
+      span:hover {
+        text-decoration: underline;
+      }
+      button {
+        background-color: rgb(92, 234, 92);
+        border: 0;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      button:hover {
+        background-color: rgb(60, 185, 60);
+        cursor: pointer;
+      }
+      .container {
+        background-color: black;
+        color: white;
+        width: fit-content;
+        padding: 100px;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+      }
+      img {
+        height: 200 px;
+        width: 170px;
+        cursor: pointer;
+      }
+      .us{
+        font-size: 13px;
+        color: gray;
+        
+        
+      }
+      .profit{
+        color: rgb(39, 184, 39);
+        margin-top: 15px;
+        
+    
+      }
+      .lose-result{
+        color: red;
+        margin-top: 20px;
+      }
+      .lose{
+        color: gray;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="image.png" alt="" />
+      <h2>HTML CSS Course</h2>
+      <p class="para">Beginner to Pro &#8482;</p>
+      <p class="des">
+        In this Course,We'll learnthe skill you need to become a
+        <span>develeper &#8226;</span>
+      </p>
+      <button>Get Started</button>
+    </div>
+    <div class="doller">
+        <h2 class="trading">1.049&#903;61 <span class="us">USD</span></h2>
+        <p class="profit">&#x2b;18.05(1.75&#x25;)today</p>
+        <p class="lose-result">After Hours 1&#x2c;048.00 <span class="lose">-1.61(0.15%)</span></p>
+    </div>
+  </body>
+</html>
