@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img id="cat-img" src="button/cat.png" alt="cat" />
+
+      <div class="dis">
+        <p class="name">olivar</p>
+
+        <div class="uname">
+          <p>The Cat</p>
+        </div>
+        <div class="idname">
+          <p>Popular</p>
+        </div>
+      </div>
+      <div class="btn">
+        <button>Follow</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function () {
+      var isvisible = true
+      $("button").click(function () { 
+        if(isvisible){
+          $("img").fadeOut(1000);
+          $(this).text("Unfollow");
+        }else{
+          $("img").fadeIn(1000);
+           $(this).text("follow");
+        }
+        isvisible = !isvisible
+        
+      });
+    });
+  </script>
+  </script>
+  <style>
+    *,
+    *::after,
+    *::before {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      border: 1px solid;
+      /* width: 360px; */
+      /* line-height: 200px; */
+      vertical-align: middle;
+      padding: 20px;
+      display: inline-block;
+      margin: 20px;
+      border-radius: 20px;
+    }
+    #cat-img {
+      width: 60px;
+      border-radius: 50px;
+      vertical-align: middle;
+      /* display: inline-block; */
+    }
+    .name {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .idname,
+    .uname {
+      color: gray;
+    }
+    .dis {
+      /* line-height: 5px; */
+      vertical-align: middle;
+      display: inline-block;
+      margin: 0 20px;
+    }
+    button {
+      background-color: rgb(20, 114, 247);
+      color: white;
+      border-radius: 20px;
+      border: 0 solid;
+      padding: 5px;
+      padding: 7px 15px;
+    }
+    button:hover {
+      background-color: rgb(15, 96, 210);
+    }
+
+    .btn {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  </style>
+</html>
