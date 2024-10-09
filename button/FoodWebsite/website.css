@@ -1,0 +1,167 @@
+* {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-color: #f5f5f5;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+}
+
+.nav-bar {
+    padding: 15px;
+    height: 80px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: rgba(195, 12, 12, 0.5);
+    backdrop-filter: blur(10px);
+    animation: slide 2s forwards; 
+    text-shadow: 0 1px 0 #000;
+}
+
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
+
+#logo-name {
+    font-size: 11px;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-inline: 25px;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #ccc;
+}
+
+.sentence {
+    padding: 75px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#front-img {
+    width: 500px;
+    height: 230px;
+    padding-inline: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.front-container {
+    background-color: #a91b1b;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.front-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    right: 460px;
+    top: 266px;
+    background: rgba(229, 32, 32, 0.5);
+    backdrop-filter: blur(10px);
+    animation: slide 2s forwards;
+    
+    
+}
+
+#inp {
+    height: 28px;
+    width: 250px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#inp:focus {
+    border-color: #a91b1b;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    border: 0 solid;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+}
+
+#search-bar-inp {
+    background-color: white;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#search-bar-inp:focus {
+    border-color: #a91b1b;
+}
+
+#inp-op {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@keyframes slide {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 500px;
+    }
+}
+
+
